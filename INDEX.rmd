@@ -38,7 +38,7 @@ This displays the cumulative sum of referrals by month. The red line is for 2020
 ## **NHS Grampian**
 This displays the monthly totals and cumulative sums of CAMHS referrals and accepted referrals for NHS Grampian.
 
-![](Plots/refs small.png)
+![](Plots/refs 2020 vs.png)
 
 
 # **2. Patients Waiting**
