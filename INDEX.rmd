@@ -1,0 +1,74 @@
+---
+title: "CAMHS Waiting List Open Data"
+author: "Will Ball"
+date: "26/04/2021"
+output: 
+  rmdformats::material:
+    self_contained: true
+    thumbnails: true
+    lightbox: true
+    gallery: false
+    highlight: tango
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **Referrals**
+
+## **Monthly Totals**
+Referrals to CAMHS by month and health board. The red line is for the year 2020. Blue shows the historic min and max. The black line is historic mean.
+
+![](Plots/national refs.png)
+
+## **Cumulative Referrals**
+This displays the cumulative sum of referrals by month. The red line is for 2020. The dotted line is the historic mean. The red shaded area represents anything below or above the historic mean.
+
+![](Plots/national cumsum.png)
+
+## **NHS Grampian**
+This displays the monthly totals and cumulative sums of CAMHS referrals and accepted referrals for NHS Grampian.
+
+![](Plots/refs small.png)
+
+
+# **Patients Waiting**
+
+## **Monthly Totals**
+This displays the monthly totals of patients waiting for treatment. The red line is for 2020. Blue shows the historic min and max. The black line is the historic mean.
+
+![](Plots/National CAMHS wait.png)
+
+## **NHS Grampian**
+This displays the monthly totals of patients waiting for NHS Grampian, as well as a breakdown of numbers waiting for a range of time periods.
+
+![](Plots/gramp waits small.png)
+
+# **Patients Seen**
+
+## **Monthly Totals**
+This displays the monthly total of patients seen at first appointment by health board. Red line is 2020. Blue is historic min/max. Black line is historic mean. Some boards have missing data for 2020.
+
+![](Plots/National CAMHS seen.png)
+
+## **Cumulative Total**
+This displays the cumulative sum of patients seen at first appointment by health board. The red line represents the cumulative total. The dotted line is the cumulative sum of the historic mean. The red shaded area represents anything above or below the cumulative sum of the monthly historic mean.
+
+![](Plots/national cumsum seen.png)
+
+## **NHS Grampian**
+This displays the monthly totals of patients seen at first appointment in NHS Grampian, as well as a breakdown of patients seen after various wait lengths.
+
+![](Plots/patients seen small.png)
+
+# **Open Cases**
+
+## **National Open Case**
+This displays monthly totals of patients receiving treatment who have not yet been discharged. **Note:** This data only goes back to 2019.
+
+![](Plots/national open cases.png)
+
+## **NHS Grampian**
+
+![](Plots/open cases.png)
