@@ -15,7 +15,15 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# **Referrals**
+# **CAMHS**
+
+Child and Adolescent Mental Health Services (CAMHS) is the name for a range of NHS services which aim to help young people who experience serious emotional, behavioural or mental health difficulties.
+
+The services are delivered by a range of healthcare professionals including psychiatric nurses, child and adolescent psychiatrists, clinical psychologists, social workers, psychotherapists (including child/analytical, systemic/family, cognitive behavioural), creative therapists (including art, music and drama), play therapists, liaison teachers, speech and language therapists, occupational therapists and dietitians.
+
+This website presents plots which illustrate trends in CAMHS referrals, waiting lists and numbers of open cases. These are mostly shown comparing 2020 and pre-pandemic trends. It shows figures for Scotland, by Health Board with an additional highlight on NHS Grampian.
+
+# **1. Referrals**
 
 ## **Monthly Totals**
 Referrals to CAMHS by month and health board. The red line is for the year 2020. Blue shows the historic min and max. The black line is historic mean.
@@ -33,7 +41,7 @@ This displays the monthly totals and cumulative sums of CAMHS referrals and acce
 ![](Plots/refs small.png)
 
 
-# **Patients Waiting**
+# **2. Patients Waiting**
 
 ## **Monthly Totals**
 This displays the monthly totals of patients waiting for treatment. The red line is for 2020. Blue shows the historic min and max. The black line is the historic mean.
@@ -45,7 +53,7 @@ This displays the monthly totals of patients waiting for NHS Grampian, as well a
 
 ![](Plots/gramp waits small.png)
 
-# **Patients Seen**
+# **3. Patients Seen**
 
 ## **Monthly Totals**
 This displays the monthly total of patients seen at first appointment by health board. Red line is 2020. Blue is historic min/max. Black line is historic mean. Some boards have missing data for 2020.
@@ -62,7 +70,7 @@ This displays the monthly totals of patients seen at first appointment in NHS Gr
 
 ![](Plots/patients seen small.png)
 
-# **Open Cases**
+# **4. Open Cases**
 
 ## **National Open Case**
 This displays monthly totals of patients receiving treatment who have not yet been discharged. **Note:** This data only goes back to 2019.
@@ -72,3 +80,8 @@ This displays monthly totals of patients receiving treatment who have not yet be
 ## **NHS Grampian**
 
 ![](Plots/open cases.png)
+
+# **Data**
+
+## Source
+All data used to create these plots was sourced from the Public Health Scotland [Open Data portal](https://www.opendata.nhs.scot/dataset/child-and-adolescent-mental-health-waiting-times) and is used under the [UK Open Government License (OGL)](http://reference.data.gov.uk/id/open-government-licence).
