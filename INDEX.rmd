@@ -1,7 +1,7 @@
 ---
 title: "CAMHS Waiting List Open Data"
 author: "Will Ball"
-date: "26/04/2021"
+date: "`r format(Sys.time(), '%d %B %Y')`"
 output: 
   rmdformats::material:
     self_contained: true
@@ -9,6 +9,8 @@ output:
     lightbox: true
     gallery: false
     highlight: tango
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "docs") })
 ---
 
 ```{r setup, include=FALSE}
@@ -22,7 +24,7 @@ Child and Adolescent Mental Health Services (CAMHS) is the name for a range of N
 
 The services are delivered by a range of healthcare professionals including psychiatric nurses, child and adolescent psychiatrists, clinical psychologists, social workers, psychotherapists (including child/analytical, systemic/family, cognitive behavioural), creative therapists (including art, music and drama), play therapists, liaison teachers, speech and language therapists, occupational therapists and dietitians.
 
-This website presents plots which illustrate trends in CAMHS referrals, waiting lists and numbers of open cases. These are mostly shown comparing 2020 and pre-pandemic trends. It shows figures for Scotland, by Health Board with an additional highlight on NHS Grampian.
+Publicly available information related to CAMHS referrals and waiting lists is available from the Publich Health Scotland [Open Data Portal](https://www.opendata.nhs.scot/dataset/child-and-adolescent-mental-health-waiting-times). This website presents plots which illustrate trends in CAMHS referrals, waiting lists and numbers of open cases. These are mostly shown comparing 2020 and pre-pandemic trends. It shows figures for Scotland, by Health Board with an additional highlight on NHS Grampian.
 
 ## **How to Read the Plots**
 
